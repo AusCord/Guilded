@@ -4,7 +4,6 @@
         <img src="https://raw.githubusercontent.com/AusCord/.github/main/assets/auscord-banner.png">
     </a>
     <!-- Shields -->
-    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/auscord/guilded/total?style=for-the-badge&logo=github&logoColor=%23000&label=Downloads&labelColor=%23E9C46A&color=%23000">
     <img alt="GitHub license" src="https://img.shields.io/github/license/auscord/guilded?style=for-the-badge&logo=github&logoColor=%23000&label=License&labelColor=%23E9C46A&color=%23000">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/auscord/guilded?style=for-the-badge&logoColor=%23000&labelColor=%23E9C46A&color=%23000">
     <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/auscord/guilded?style=for-the-badge&logo=github&logoColor=%23000&label=Contributors&labelColor=%23E9C46A&color=%23000">
