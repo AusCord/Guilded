@@ -1,3 +1,6 @@
+/* This url endpoint may be disabled at any time! */
+
+/* AusCord Theme */
 /* 
 Copyright 2023 NotAussie
 
@@ -8,14 +11,6 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-/* OLD - Will be removed */
-/* :index {
-    ( AusCord - Colours )
-    --auscord-primary: #E9C46A;
-    --auscord-ui-primary: #181818;
-    --auscord-ui-secondary: #1F1F1F;
-} */
-
 /* Links */
 .OpenGraphEmbedContent-container {
     background-color: #181818;
@@ -25,6 +20,14 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     background-color: #181818;
 }
 
+.UserBadge-container {
+    background-color: #181818;
+}
+
+.UserInfoSummaryItem-container {
+    background-color: #181818;
+    border-color: #181818;
+}
 
 /* Server/Channels */
 .NavSelectorItem-container-orientation-horizontal.NavSelectorItem-container-size-lg {
@@ -51,6 +54,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 .GroupList-container {
     background-color: #181818;
     -webkit-mask-image: none;
+    mask-image: none;
 }
 
 .TeamRoleSelector-container .TeamRoleSelector-search-select {
@@ -64,6 +68,116 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 .OptionsMenu-container-desktop .OptionsMenu-options-control {
     background-color: #181818;
+}
+
+.DesktopAppCaptureDevicePickerOverlay-options {
+    background-color: #1F1F1F;
+}
+
+.DesktopCaptureOptionPreview-option-preview {
+    background-color: #181818;
+}
+
+.SwitchInput-container-on .SwitchInput-slide {
+    background-color: #23A55A;
+}
+
+.SwitchInput-slide {
+    background-color: #80848E;
+}
+
+.StreamerModeSettings-primary-section {
+    background-color: #181818;
+    border-radius: 5px;
+}
+
+.StreamerModeSettings-primary-section:hover {
+    background-color: #1F1F1F;
+    border-radius: 5px;
+}
+
+.DesktopOptionsControlItemTemplate-container-active {
+    background-color: #1F1F1F;
+}
+
+.MenuItemEnabled-container-highlighted {
+    background-color: #1F1F1F;
+}
+
+.MenuItemEnabled-container {
+    background-color: #181818;
+}
+
+.SlateTypeaheadMenuHeader-container {
+    background-color: #181818;
+}
+
+.StatusMessage-container-desktop.StatusMessage-container-clickable {
+    background-color: #1F1F1F;
+}
+
+.ServerSubscriptionBar-container {
+    background-color: #181818;
+}
+
+.PersistentUpsell-container-flavor-settings {
+    background-color: #181818;
+}
+
+.SocialLinkPanel-header {
+    background-color: #181818;
+}
+
+.ItemKeybindInput-container {
+    background-color: #181818;
+}
+
+.UserSettingsServerSubscriptionsUpsell-container {
+    background-color: #181818;
+}
+
+.CheckboxPanel-container-selected {
+    background-color: #181818;
+}
+
+.CheckboxPanel-container-clickable {
+    background-color: #181818;
+}
+
+.Navbar-container {
+    background-color: #181818;
+}
+
+.GroupSelector-container {
+    background-color: #181818;
+}
+
+.TeamOverviewBanner-banner {
+    background-color: #181818;
+}
+
+.UserProfileV3-container-thick-scrollbar {
+    background-color: #1F1F1F;
+}
+
+.TeamEmbedCard-content {
+    background-color: #181818;
+}
+
+.PlayerCardProfilePicture-indicator {
+    border-color: #181818;
+}
+
+.PlayerCardProfilePicture-container-size-xlg .PlayerCardProfilePicture-indicator {
+    border-color: none;
+}
+
+.ChatChannelListItem-container-selected {
+    background-color: #1F1F1F;
+}
+
+.ChatChannelListItem-container-selected .ChatChannelListItem-remove-icon {
+    background: none;
 }
 
 .OptionsMenuPageWrapper-container {
@@ -189,6 +303,10 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     background-color: #181818;
 }
 
+.DefaultReadonlyEditableForm-container {
+    background-color: #181818;
+}
+
 .FormSection-container-section-border-lg:not(:first-child),
 .FormSection-container-section-border-lg:not(.FormSection-container-with-header) {
     background-color: #181818;
@@ -206,13 +324,14 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     background-color: #181818;
 }
 
-.TeamThreadPostPanel-display {
-    background-color: #181818;
+.TeamThreadPostPanel-container {
+    border-radius: 5px;
 }
 
 .TeamThreadReplyCreator-editor {
     background-color: #181818;
 }
+
 
 .StreamsDisplayV2-view-wrapper {
     background-color: #181818;
@@ -223,13 +342,14 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 }
 
 /* Explore */
-/* .TeamExplore {
+.TeamExplore {
     background: none;
+    background-color: #181818;
 }
 
 .CardWrapper-container.CardWrapper-container-desktop.CardWrapper-container-actionable {
     background-color: #181818;
-} */
+}
 
 /* Voice */
 .VoiceConnectionDisplayPanelContents-footer {
@@ -249,6 +369,17 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     background-color: #1F1F1F;
 }
 
+.ModalV2-container-has-header .ModalV2-modal-content {
+    background-color: #181818;
+}
+
+.Select,
+.Select div,
+.Select input,
+.Select span {
+    background-color: #1F1F1F;
+}
+
 .ApplyToTeam-container {
     background-color: #181818;
 }
@@ -258,6 +389,10 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 }
 
 .ModalFooter-container {
+    background-color: #181818;
+}
+
+.QuickActionBar-container {
     background-color: #181818;
 }
 
@@ -277,6 +412,10 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 .ScreenHeader-container {
     background-color: #1F1F1F;
+}
+
+.StatusMessage-container-persistent.StatusMessage-container-type-info {
+    background-color: #181818;
 }
 
 
@@ -379,6 +518,10 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     background-color: #1F1F1F;
 }
 
+.ChatChannelInputStatusDrawer-typeahead-portal-target,
+.ChatChannelInputStatusDrawer-inline-reply-bar {
+    background-color: #181818;
+}
 
 .ChatChannelInput-container .ChatChannelInput-editor {
     background-color: #181818;
@@ -405,17 +548,27 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     background-color: #1F1F1F;
 }
 
-
 .ReactionPickerNavbar-container {
     background-color: #181818;
 }
-
 
 .ReactionPickerFooter-container {
     background-color: #181818;
 }
 
-
 .ReactionPicker-search {
     background-color: #1F1F1F;
+}
+
+.TeamThreadPostEditor-container {
+    background-color: #181818;
+    border-radius: 5px;
+}
+
+.VoiceConnectionDisplayInfo-header {
+    background-color: #181818;
+}
+
+.TeamThreadPostPanel-display {
+    background-color: #181818;
 }
