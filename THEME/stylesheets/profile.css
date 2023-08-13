@@ -1,0 +1,16 @@
+/* Colour palette */
+:root {
+    --blurple: #5865F2;
+    --main: #181818;
+    --secondary: #1F1F1F;
+}
+
+/* Profile header picture wrapper */
+.UserProfileHeader-profile-picture-wrapper {
+    background-color: var(--secondary);
+}
+
+/* Profile content container */
+.UserProfileV3-profile-content {
+    background-color: var(--secondary);
+}

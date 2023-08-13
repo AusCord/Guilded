@@ -1,0 +1,44 @@
+/* Colour palette */
+:root {
+    --blurple: #5865F2;
+    --main: #181818;
+    --secondary: #1F1F1F;
+    --tertiary: #3A3A3B;
+}
+
+/* Channal container */
+.ChannelWrapper-container {
+    background-color: var(--secondary);
+}
+
+/* Team page container */
+.MyTeamsPage-container {
+    background-color: var(--secondary);
+}
+
+/* Thread post container */
+.TeamThreadPostPanel-container {
+    background-color: var(--main);
+}
+
+/* Thread post container */
+.TeamThreadPostPanelDisplay-container {
+    background-color: var(--main);
+    --border-colour: #181818;
+}
+
+/* Thread reply creator */
+.TeamThreadReplyCreator-unexpanded-wrapper {
+    background-color: var(--main);
+}
+
+/* .TeamPostRow-container */
+.TeamPostRow-container {
+    background-color: var(--main);
+}
+
+/* .ScreenHeader-container */
+.ScreenHeader-container {
+    background-color: var(--main);
+    border-bottom: 1px solid rgb(24, 24, 24);
+}
