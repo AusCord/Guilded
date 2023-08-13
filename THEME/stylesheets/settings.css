@@ -1,0 +1,16 @@
+/* Colour palette */
+:root {
+    --blurple: #5865F2;
+    --main: #181818;
+    --secondary: #1F1F1F;
+}
+
+/* Options menu container */
+.OptionsMenu-container-desktop .OptionsMenu-options-control {
+    background-color: var(--main);
+}
+
+/* .Options menu container */
+.OptionsMenuPageWrapper-container {
+    background-color: var(--secondary);
+}
