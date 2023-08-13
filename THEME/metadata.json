@@ -1,0 +1,22 @@
+{
+    "id": "ac",
+    "name": "AusCord",
+    "files": [
+        "./stylesheets/channels.css",
+        "./stylesheets/core.css",
+        "./stylesheets/discord-icons.css",
+        "./stylesheets/groupchat.css",
+        "./stylesheets/modals.css",
+        "./stylesheets/profile.css",
+        "./stylesheets/settings.css"
+    ],
+    "author": "mj7xOkBA",
+    "banner": "./images/banner.png",
+    "images": [
+        "./images/1.png",
+        "./images/2.png",
+        "./images/3.png",
+        "./images/banner.png"
+    ],
+    "repoUrl": "https://github.com/AusCord/Guilded"
+}
