@@ -1,0 +1,94 @@
+/* Colour palette */
+:root {
+    --blurple: #5865F2;
+    --main: #181818;
+    --secondary: #1F1F1F;
+}
+
+/* Footer */
+.Navbar-container {
+    background-color: var(--main);
+    --border-color: #181818;
+}
+
+/* Side bar container */
+.WebAppSidebarMenu-container {
+    background-color: none;
+}
+
+/* Inline code */
+.MarkRenderer-inline-code,
+.MarkRenderer-inline-code-v2 {
+    background-color: var(--secondary);
+}
+
+/* Code container */
+.CodeContainerRenderer-container {
+    background-color: var(--secondary);
+}
+
+/* Code line render */
+.CodeLineRenderer {
+    background-color: var(--secondary);
+}
+
+/* Group selector container */
+.GroupSelector-container {
+    background-color: var(--main);
+    --border-color: #181818;
+}
+
+/* Team navigation menu container */
+.TeamNavMenu-container {
+    background-color: var(--main);
+}
+
+/* Side bar wrapper container */
+.SidebarWrapper-container {
+    background-color: var(--main);
+}
+
+/* Side bar members container */
+.TeamPageSidebarMembersV2-container {
+    background-color: var(--secondary);
+}
+
+/* Profile card container */
+.ProfileHoverCardOverlay-container {
+    background-color: var(--main);
+}
+
+/* Text input */
+.ChatChannelInput-container {
+    background-color: var(--secondary);
+}
+
+/* Text input bar */
+.ChatChannelInput-container .ChatChannelInput-editor {
+    background: var(--main);
+}
+
+/* Reply */
+.ChatChannelInputStatusBar-container {
+    background-color: var(--main);
+}
+
+/* Web application container */
+.WebAppSidebarMenu-container {
+    background-color: var(--main);
+}
+
+/* Web application side bar portal */
+.WebAppSidebar-portal {
+    background-color: var(--main);
+}
+
+/* Navigation side bar container */
+.NavV4SectionSidebar-container {
+    background-color: var(--main);
+}
+
+/* Navigation section sidebar option container active */
+.NavV4SectionSidebarOption-container-active {
+    background-color: var(--secondary);
+}

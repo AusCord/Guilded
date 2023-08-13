@@ -1,0 +1,32 @@
+/* Colour palette */
+:root {
+    --blurple: #5865F2;
+    --main: #181818;
+    --secondary: #1F1F1F;
+}
+
+/* Chat channel selector container */
+.ChatChannelList-container {
+    background-color: var(--main);
+}
+
+/* Side bar information container */
+.SidebarInfoItem-container {
+    background-color: var(--secondary);
+}
+
+/* Chat channel selected container */
+.ChatChannelListItem-container-selected {
+    background-color: var(--secondary);
+}
+
+/* Remove icon hover */
+.ChatChannelListItem-remove-icon:hover {
+    fill: var(--blurple);
+}
+
+/* Channel list item container hover */
+.ChatChannelListItem-container:not(.ChatChannelListItem-container-selected):hover {
+    background-color: var(--secondary);
+    --border-color: #1f1f1f;
+}
